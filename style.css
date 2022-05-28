@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(245, 206, 213);
+}
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 5px whitesmoke;
+    border-radius: 20px;
+    animation-name: test;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test{
+    from{box-shadow: 5px 5px 5px black;}
+    to{box-shadow: 5px 5px 5px rgb(190, 190, 190);}
+}
+
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
